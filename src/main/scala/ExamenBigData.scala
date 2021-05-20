@@ -6,6 +6,7 @@ object ExamenBigData {
   }
 
   def liste_double() : Unit = {
+    // ma liste de tuple
     val monMap: Map[String, String] = Map(
       "ecommerce.fr" -> "",
       "https://www.journalducm.com/contact/" -> "Payant",
