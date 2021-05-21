@@ -1,3 +1,4 @@
+import scala.collection.immutable._
 object ExamenBigData {
 
   def newList(liste : List[String]) : List[String] = {
@@ -7,6 +8,7 @@ object ExamenBigData {
 
   def liste_double() : Unit = {
     // ma liste de tuple
+    /*
     val monMap: Map[String, String] = Map(
       "ecommerce.fr" -> "",
       "https://www.journalducm.com/contact/" -> "Payant",
@@ -22,8 +24,13 @@ object ExamenBigData {
 
     )
     val liste1 = monMap.toList
-    println(liste1)
-    //val listeOffHttp = monMap.keys.foreach()
+    //println(liste1)
+    val listeOffHttp = monMap.keys
+    val L2 = listeOffHttp.foreach(x => x.substring(12))
+    //println(listeOffHttp)
+
+     */
+    val liste : List
   }
 
   def main(args: Array[String]): Unit = {
